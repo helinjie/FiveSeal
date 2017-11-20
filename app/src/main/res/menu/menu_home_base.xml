@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@mipmap/ic_launcher"
+            android:title="登录"/>
+        <item
+            android:id="@+id/nav_signature"
+            android:icon="@mipmap/ic_launcher"
+            android:title="我的签章"/>
+        <item
+            android:id="@+id/nav_contract"
+            android:icon="@mipmap/ic_launcher"
+            android:title="我的合同"/>
+        <item
+            android:id="@+id/nav_partner"
+            android:icon="@mipmap/ic_launcher"
+            android:title="我的合作伙伴"/>
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@mipmap/ic_launcher"
+            android:title="消息通知"/>
+    </group>
+
+</menu>

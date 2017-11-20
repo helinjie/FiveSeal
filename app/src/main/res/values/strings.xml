@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">5FSeal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!--titlt_main_layout-->
+    <string name="home_my_want_sign">我要签约</string>
+    <string name="home_my_after_sign">待我签署</string>
+    <string name="home_my_wait_sign">等待他人签署</string>
+    <string name="home_my_certification">去认证</string>
+    <string name="home_my_signature">我的签章</string>
+    <string name="home_my_contract">我的合同</string>
+    <string name="home_my_account">账号设置</string>
+    <string name="home_my_partners">我的合作伙伴</string>
+    <string name="home_my_alerts">消息通知</string>
+    <string name="home_my_feedback">意见反馈</string>
+    <string name="home_my_regard">关于</string>
+
+
+</resources>

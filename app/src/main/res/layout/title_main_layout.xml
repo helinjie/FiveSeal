@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MatchMatch.Vertical"
+    android:background="@color/default_bg_gray"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/ll_sign"
+        style="@style/Match40dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/WrapWrap"
+            android:text="@string/home_my_want_sign"
+            android:textColor="@color/font_grey"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="@dimen/margin5"
+        android:layout_marginTop="@dimen/margin5"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_after_sign"
+            style="@style/AutoMatch.Vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_after_sign_num"
+                style="@style/WrapWrap"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                style="@style/WrapWrap"
+                android:layout_marginTop="10dp"
+                android:text="@string/home_my_after_sign"
+                android:textColor="@color/font_grey"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="@dimen/margin5"
+            android:layout_height="match_parent"
+            android:background="@color/default_bg_gray"></View>
+
+        <LinearLayout
+            android:id="@+id/ll_wait_sign"
+            style="@style/AutoMatch"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/WrapWrap"
+                android:text="0"
+                android:textColor="@color/black"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/tv_wait_sign_num"
+                style="@style/WrapWrap"
+                android:layout_marginTop="@dimen/margin10"
+                android:text="@string/home_my_wait_sign"
+                android:textColor="@color/font_grey"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Match40dp"
+        android:background="@color/btn_unfocus_light_red"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/WrapWrap"
+            android:padding="@dimen/margin1"
+            android:text="实名认证后将获得更多专业电子合同服务。"
+            android:textColor="@color/sienna"
+            android:textSize="13dp" />
+
+        <TextView
+            android:id="@+id/tv_go_certification"
+            style="@style/WrapWrap"
+            android:layout_marginLeft="@dimen/margin5"
+            android:autoLink="all"
+            android:text="@string/home_my_certification"
+            android:textColor="@color/sienna"
+            android:textSize="13dp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin8"
+            android:background="@color/white"
+            android:orientation="vertical"
+            app:divider="@drawable/line_split"
+            app:dividerPadding="@dimen/margin1"
+            app:showDividers="middle|beginning|end">
+
+
+            <LinearLayout
+                android:id="@+id/ll_signature"
+                style="@style/Match50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/Auto48dp"
+                    android:layout_marginLeft="@dimen/margin10"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/home_my_signature"
+                    android:textSize="@dimen/text_size16" />
+
+                <ImageView
+                    style="@style/WrapWrap"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/margin8"
+                    android:src="@mipmap/ic_arrow_right" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_contract"
+                style="@style/Match50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/Auto48dp"
+                    android:layout_marginLeft="@dimen/margin10"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/home_my_contract"
+                    android:textSize="@dimen/text_size16" />
+
+                <ImageView
+                    style="@style/WrapWrap"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/margin8"
+                    android:src="@mipmap/ic_arrow_right" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_account"
+                style="@style/Match50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/Auto48dp"
+                    android:layout_marginLeft="@dimen/margin10"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/home_my_account"
+                    android:textSize="@dimen/text_size16" />
+
+                <ImageView
+                    style="@style/WrapWrap"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/margin8"
+                    android:src="@mipmap/ic_arrow_right" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_partners"
+                style="@style/Match50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/Auto48dp"
+                    android:layout_marginLeft="@dimen/margin10"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/home_my_partners"
+                    android:textSize="@dimen/text_size16" />
+
+                <ImageView
+                    style="@style/WrapWrap"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/margin8"
+                    android:src="@mipmap/ic_arrow_right" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_alerts"
+                style="@style/Match50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/Auto48dp"
+                    android:layout_marginLeft="@dimen/margin10"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/home_my_alerts"
+                    android:textSize="@dimen/text_size16" />
+
+                <ImageView
+                    style="@style/WrapWrap"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/margin8"
+                    android:src="@mipmap/ic_arrow_right" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_feedback"
+                style="@style/Match50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/Auto48dp"
+                    android:layout_marginLeft="@dimen/margin10"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/home_my_feedback"
+                    android:textSize="@dimen/text_size16" />
+
+                <ImageView
+                    style="@style/WrapWrap"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/margin8"
+                    android:src="@mipmap/ic_arrow_right" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_regard"
+                style="@style/Match50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/Auto48dp"
+                    android:layout_marginLeft="@dimen/margin10"
+                    android:gravity="left|center_vertical"
+                    android:text="@string/home_my_regard"
+                    android:textSize="@dimen/text_size16" />
+
+                <ImageView
+                    style="@style/WrapWrap"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/margin8"
+                    android:src="@mipmap/ic_arrow_right" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </ScrollView>
+</LinearLayout>

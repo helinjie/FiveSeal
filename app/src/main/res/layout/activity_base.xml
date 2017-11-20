@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchMatch.Vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:apps="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/ll_bar"
+        style="@style/MatchWrap.Horizontal"
+        android:background="@color/two_alpha_balck"
+        apps:popupTheme="@style/OverflowMenuStyle"
+        android:visibility="gone"
+        ></LinearLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/ActionBarSize"
+        android:background="@color/white"
+        app:contentInsetStart="0dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rl_custom"
+            style="@style/WrapWrap"
+            android:layout_gravity="center"
+            ></RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        style="@style/MatchMatch.Vertical"
+        android:background="@color/white"
+        ></LinearLayout>
+
+
+
+</LinearLayout>

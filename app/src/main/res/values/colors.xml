@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F3F3F3</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+
+    <color name="transparent">@android:color/transparent</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="argbffc8c7cc_line">#ffc8c7cc</color>
+    <color name="default_ind_grey">#EAEAEA</color>
+
+    <!-- 字体颜色 -->
+    <!-- 灰色 -->
+    <color name="font_grey">#ffa5a5a5</color>
+    <color name="default_bg_gray">#F0F1F2</color>
+    <!-- 粉红色 -->
+    <color name="btn_unfocus_light_red">#fe9e9d</color>
+    <!-- 土黄色 -->
+    <color name="font_soid_yellow">#fff6be4e</color>
+    <color name="sienna">#a0522d</color><!--赭色 -->
+
+
+    <!-- 10%-90%透明黑 -->
+    <color name="one_alpha_balck">#19000000</color>
+    <color name="two_alpha_balck">#33000000</color>
+    <color name="three_alpha_balck">#40000000</color>
+    <color name="four_alpha_balck">#66000000</color>
+    <color name="five_alpha_balck">#7f000000</color>
+    <color name="six_alpha_balck">#99000000</color>
+    <color name="seven_alpha_balck">#b2000000</color>
+    <color name="eight_alpha_balck">#cc000000</color>
+    <color name="nine_alpha_balck">#e5000000</color>
+
+
+</resources>
